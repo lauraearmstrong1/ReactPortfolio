@@ -14,7 +14,9 @@ const Signup = () => {
 
   return (
     <div>
-     <Navbar></Navbar>
+     <Navbar className="navbar bg-dark ">
+       
+     </Navbar>
       <div className="mt-4">
         <h2>Sign Up</h2>
       </div>

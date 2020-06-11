@@ -3,8 +3,9 @@ import Container from "../../components/Container";
 import Col from "../../components/Col";
 import Row from "../../components/Row";
 import Navbar from "../../components/Navbar";
+import Background from "../../components/Background"
 
-const Signup = () => {
+const Home = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("")
   const handleSubmit = e => {
@@ -12,13 +13,23 @@ const Signup = () => {
     console.log("username "+ username, )
   };
 
+  // const Portfolio = () => {
+  //   const handlePortfolio = e => {
+  //     e.preventDefault();
+  //   }
+  // }
+
   return (
     <div>
      <Navbar className="navbar bg-dark ">
-       
+
      </Navbar>
-      <div className="mt-4">
-        <h2>Sign Up</h2>
+     <Background></Background>
+
+     
+      {/* <div className="mt-4"> */}
+
+        {/* <h2>Sign Up</h2>
       </div>
       <form onSubmit={handleSubmit}>
         <Container className="mt-3 px-5">
@@ -47,9 +58,9 @@ const Signup = () => {
           <h3>Hello NAME_HERE!</h3>
   <p>I probably shouldn't tell you this, but your password is {password}!</p>
         </Container>
-      </form>
+      </form> */}
     </div>
   );
 };
 
-export default Signup;
+export default Home;

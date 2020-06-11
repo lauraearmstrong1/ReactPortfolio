@@ -8,11 +8,11 @@ function Navbar() {
     
     <span className="col-sm-4 d-flex justify-content-start list">
         <a 
-        //href="portfolio.html" 
+        href="/" 
         className="list">portfolio </a>
         <a> / </a>
         <a 
-        //href="contact.html" 
+        href="/" 
         className="list"> contact</a>
       </span>
     

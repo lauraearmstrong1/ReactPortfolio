@@ -1,4 +1,24 @@
-.hero {
+.pic {
+  width: 90%;
+  height: auto;
+  border-style: solid;
+  border-color: #292b2c;
+}
+
+.bio {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Kalam', cursive; */
+}
+
+.about {
+  background-color: transparent;
+}
+
+
+
+/* .hero {
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -31,4 +51,4 @@
   font-size: 60px;
   padding-top: 140px;
   margin-top: 0;
-}
+} */

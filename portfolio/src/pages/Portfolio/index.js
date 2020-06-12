@@ -4,9 +4,9 @@ import Col from "../../components/Col";
 import Row from "../../components/Row";
 import Navbar from "../../components/Navbar";
 import Background from "../../components/Background";
-import AboutInfo from "../../components/AboutInfo";
 
-const Home = () => {
+
+const Portfolio = () => {
 
   // const Portfolio = () => {
   //   const handlePortfolio = e => {
@@ -19,13 +19,16 @@ const Home = () => {
      <Navbar className="navbar bg-dark ">
 
      </Navbar>
-       <AboutInfo>
+      
      <Background></Background>
-     </AboutInfo>
+     
      
       
     </div>
   );
 };
 
-export default Home;
+export default Portfolio;
+
+
+

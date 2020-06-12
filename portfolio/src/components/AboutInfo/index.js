@@ -3,21 +3,15 @@ import "./style.css";
 import Me from "./me.jpg"
 import Spencer from "./Spencer.jpg"
 import GrandCanyon from "./Grand-Canyon.JPG"
+import Background from "../Background/brick.jpg"
 
-// function Hero(props) {
-//   return (
-//     <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
-//       {props.children}
-//     </div>
-//   );
-// }
-
-//export default Hero;
+const imageUrl = Background
 
 function About() {
+
   return (
     <div>
-        <div className="row">
+        <div className="row background" style={{backgroundImage: `url(${imageUrl})` }}>
     <div className="col-sm-2"></div>
     <div className="col-sm-8 container px-3 pt-3 pb-3 about">
       <div className="row">
@@ -36,13 +30,13 @@ function About() {
       <div className="row">
 
         <div className="col-sm-4 d-flex justify-content-between">
-        <img src={Me} className="pic" />
+        <img src={Me} className="pic" alt="Me"/>
         </div>
         <div className="col-sm-4 d-flex justify-content-between">
-        <img src={GrandCanyon} className="pic" />
+        <img src={GrandCanyon} className="pic" alt="Grand-Canyon"/>
         </div>
         <div className="col-sm-4 d-flex justify-content-between">
-        <img src={Spencer} className="pic" />
+        <img src={Spencer} className="pic" alt="dog" />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import img from "./brick.jpg"
 
 function Background() {
   return (
-      <img src={img} className="background" />
+      <img src={img} className="background" alt="brick"/>
   );
 }
 

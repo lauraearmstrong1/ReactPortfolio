@@ -1,7 +1,15 @@
 import React from "react";
 import "./style.css";
+//import Resume from "./Resume/Resume.pdf"
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+// links={
+//   resume: Resume,
+//   twitterUrl: url("https://github.com/lauraearmstrong1"),
+//   linkedInUrl: url("https://www.linkedin.com/in/laura-armstrong-90bb0a86/"),
+//   githubUrl: url("https://github.com/lauraearmstrong1")
+// };
+
+
 function Navbar() {
   return (
     <nav className="navbar bg-dark">
@@ -22,19 +30,19 @@ function Navbar() {
     
     <span className="col-sm-4 d-flex justify-content-end btn">
         <a 
-        //href="./images/Resume.pdf" 
+        //href={links.resume}
         className="fa fa-file btn" 
         ></a>
         <a 
-        //href="https://github.com/lauraearmstrong1" 
+        //href={links.githubUrl}
         className="fa fa-github btn" 
         ></a>
         <a 
-        //href="https://www.linkedin.com/in/laura-armstrong-90bb0a86/" 
+        //href={links.linkedInUrl}
         className="fa fa-linkedin btn"
           ></a>
         <a 
-        //href=" https://twitter.com/learmstrong1?lang=en" 
+        //href={links.twitterUrl} 
         className="fa fa-twitter btn" 
         ></a>
       </span>

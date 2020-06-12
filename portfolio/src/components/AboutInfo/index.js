@@ -11,7 +11,7 @@ function About() {
 
   return (
     <div>
-        <div className="row background" style={{backgroundImage: `url(${imageUrl})` }}>
+        <div className="row" >
     <div className="col-sm-2"></div>
     <div className="col-sm-8 container px-3 pt-3 pb-3 about">
       <div className="row">

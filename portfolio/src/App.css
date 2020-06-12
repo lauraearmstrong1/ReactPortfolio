@@ -1,38 +1,41 @@
 .App {
   text-align: center;
+  background-size: cover;
+  height: 100%;
+}
+.root{
+  height:100%
+}
+body{
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-info {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Kalam', cursive; */
+  font-weight: bold;
+  color: #292b2c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#contact {
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#info {
+  font-size: 20px;
+}
+
+.form-control {
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Kalam', cursive; */
+  font-size: 15px;
+  color: #292b2c;
+}
+
+#name {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 60px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>GitHub JobWatcher</span>
+    <footer className="footer bg-dark">
+      <span>Copyright 2020</span>
     </footer>
   );
 }

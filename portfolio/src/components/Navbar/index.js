@@ -3,14 +3,6 @@ import "./style.css";
 import {Link, useLocation} from 'react-router-dom'
 import Resume from "../Resume/Resume.pdf"
 
-// links={
-//   resume: Resume,
-//   twitterUrl: url("https://github.com/lauraearmstrong1"),
-//   linkedInUrl: url("https://www.linkedin.com/in/laura-armstrong-90bb0a86/"),
-//   githubUrl: url("https://github.com/lauraearmstrong1")
-// };
-
-
 function Navbar() {
   let location = useLocation().pathname
   console.log(location)

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
 import Portfolio from  './pages/Portfolio'
 import Background from './components/Background/brick.jpg'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         </Switch>
 
       </Router>
+      <Footer/>
     </div>
   );
 }

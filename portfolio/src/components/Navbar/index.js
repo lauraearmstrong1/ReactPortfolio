@@ -10,9 +10,9 @@ function Navbar() {
     <nav className="navbar bg-dark">
     
     <span className="col-sm-4 d-flex justify-content-start list">
-        {location !== "/" && (<Link to="/" className="list btn">Home  </Link> )}
-        {location !== "/portfolio" && (<Link to="/portfolio" className="list btn">Portfolio  </Link>)}
-        {location !== "/contact" && (<Link to="/contact" className="list btn">Contact</Link>)}
+        {location !== "/" && (<Link to="/" className="list">Home &nbsp;&nbsp;  </Link> )}
+        {location !== "/portfolio" && (<Link to="/portfolio" className="list">Portfolio &nbsp;&nbsp; </Link>)}
+        {location !== "/contact" && (<Link to="/contact" className="list">Contact &nbsp;&nbsp; </Link>)}
       </span>
     
     <div className="col-sm-4 d-flex justify-content-center">
@@ -34,7 +34,7 @@ function Navbar() {
         target="blank"
           ><i className="fa fa-linkedin btn"></i></a>
         <a 
-        href="https://github.com/lauraearmstrong1 "
+        href="https://twitter.com/learmstrong1?lang=en"
         target="blank"
         ><i className="fa fa-twitter btn"></i></a>
       </span>

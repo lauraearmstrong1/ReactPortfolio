@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer bg-dark">
-      <span>Copyright 2020</span>
+    <footer className="footer bg-dark ftr">
+      <span>&copy; Copyright 2020</span>
     </footer>
   );
 }

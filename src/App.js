@@ -10,16 +10,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App" style={{backgroundImage: `url(${Background})`,backgroundRepeat: "no-repeat"}}>
-      <Router>
-        <Navbar className="navbar bg-dark"/>
-        <Switch>
+    <div className="App" style={{backgroundImage: `url(${Background})`, backgroundRepeat: "repeat"}}>
+      <div className="router">
+      <Router >
+      <Navbar className="navbar bg-dark "/>
+        <Switch className="content">
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
-      <Footer/>
+      </div>
+      <Footer />
     </div>
   );
 }

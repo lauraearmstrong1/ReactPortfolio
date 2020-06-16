@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import song from '../../Images/Project.JPG'
 import weather from '../../Images/WeatherDashboard.PNG'
 import burger from '../../Images/Burger.JPG'
@@ -10,7 +10,7 @@ import Project from '../../components/Projects'
 const Portfolio = () => {
   const projectList = [
     {
-      name: "Find My Song",
+      name: "Find My Show",
       image: song,
       deployed: "https://koolachoo.github.io/First-Project/",
       repo: "https://github.com/Koolachoo/First-Project"
@@ -23,9 +23,9 @@ const Portfolio = () => {
 
     },
     {
-      name: "Burger",
+      name: "Eat-Da-Burger",
       image: burger,
-      deployed: "https://github.com/lauraearmstrong1/Burger",
+      deployed: "https://enigmatic-hamlet-06631.herokuapp.com/",
       repo: "https://github.com/lauraearmstrong1/Burger"
     },
     {
@@ -37,7 +37,7 @@ const Portfolio = () => {
     {
       name: "Note Taker",
       image: notes,
-      deployed: "https://github.com/lauraearmstrong1/Note-Taker",
+      deployed: "https://nameless-springs-38020.herokuapp.com/",
       repo: "https://github.com/lauraearmstrong1/Note-Taker"
     },
     {
@@ -55,6 +55,7 @@ return (
         {projectList.map(proj => <Project details={proj} />)}
       </div>
     </div>
+    <br></br>
   </div>
 );
 };

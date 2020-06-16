@@ -3,8 +3,9 @@ import React from 'react'
 const Project = ({ details }) => {
 
     return (
-        <div className="col-sm-3">
-            <div class="card" style={{ width: "18rem" }}>
+        <div className="col-sm-4">
+            <br></br>
+            <div class="card" style={{ width: "100%" }}>
                 <a href={details.deployed} target="blank">
                     <img src={details.image} class="card-img-top" alt={details.name} /></a>
                 <div class="card-body">

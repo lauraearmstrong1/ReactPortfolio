@@ -1,23 +1,26 @@
 .App {
   text-align: center;
   background-size: cover;
-  height: 100%;
+  /* height: 100vh; */
 }
-.root{
-  height:100%
+#root{
+  min-height:100%
 }
-body{
+/* body{
   height: 100vh;
+} */
+.row{
+  width: 100%;
 }
-
 .contact-info {
   text-align: center;
   font-family: 'Comfortaa', cursive;
-  /* font-family: 'Kalam', cursive; */
   font-weight: bold;
   color: #292b2c;
 }
-
+.router{
+  min-height: 90%;
+}
 #contact {
   font-size: 30px;
 }
@@ -28,7 +31,6 @@ body{
 
 .form-control {
   font-family: 'Comfortaa', cursive;
-  /* font-family: 'Kalam', cursive; */
   font-size: 15px;
   color: #292b2c;
 }
@@ -38,4 +40,9 @@ body{
   font-size: 60px;
   color: white;
 }
+.navbar{
+  min-height: 10%;
+}
+
+
 

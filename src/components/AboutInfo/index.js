@@ -3,9 +3,6 @@ import "./style.css";
 import Me from "./me.jpg"
 import Spencer from "./Spencer.jpg"
 import GrandCanyon from "./Grand-Canyon.JPG"
-import Background from "../Background/brick.jpg"
-
-const imageUrl = Background
 
 function About() {
 

@@ -16,7 +16,7 @@ function Navbar() {
       </span>
     
     <div className="col-sm-4 d-flex justify-content-center">
-        <a id="name">laura armstrong</a>
+        <p id="name">laura armstrong</p>
     </div>
     
     <span className="col-sm-4 d-flex justify-content-end btn">

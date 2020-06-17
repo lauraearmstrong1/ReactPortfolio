@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.4e86e26f.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.ca56839a.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.ca56839a.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.17f5a5c9.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.17f5a5c9.js.map",
+    "static/js/2.e7615388.chunk.js": "/ReactPortfolio/static/js/2.e7615388.chunk.js",
+    "static/js/2.e7615388.chunk.js.map": "/ReactPortfolio/static/js/2.e7615388.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "precache-manifest.b1e4fb139b3a318f5ec727df3729a153.js": "/ReactPortfolio/precache-manifest.b1e4fb139b3a318f5ec727df3729a153.js",
+    "service-worker.js": "/ReactPortfolio/service-worker.js",
+    "static/css/main.4e86e26f.chunk.css.map": "/ReactPortfolio/static/css/main.4e86e26f.chunk.css.map",
+    "static/js/2.e7615388.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.e7615388.chunk.js.LICENSE.txt",
+    "static/media/Burger.JPG": "/ReactPortfolio/static/media/Burger.8b888a60.JPG",
+    "static/media/DailyPlanner.JPG": "/ReactPortfolio/static/media/DailyPlanner.f1eba499.JPG",
+    "static/media/Grand-Canyon.JPG": "/ReactPortfolio/static/media/Grand-Canyon.8fd02076.JPG",
+    "static/media/NerdBook.JPG": "/ReactPortfolio/static/media/NerdBook.cca9f9f0.JPG",
+    "static/media/NoteTaker.JPG": "/ReactPortfolio/static/media/NoteTaker.9dc22e73.JPG",
+    "static/media/Project.JPG": "/ReactPortfolio/static/media/Project.df58d032.JPG",
+    "static/media/Resume.pdf": "/ReactPortfolio/static/media/Resume.9393dbdf.pdf",
+    "static/media/Spencer.jpg": "/ReactPortfolio/static/media/Spencer.5e37b7d3.jpg",
+    "static/media/WeatherDashboard.PNG": "/ReactPortfolio/static/media/WeatherDashboard.bf573f2c.PNG",
+    "static/media/brick.jpg": "/ReactPortfolio/static/media/brick.37ef8ec7.jpg",
+    "static/media/me.jpg": "/ReactPortfolio/static/media/me.5142034a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17f5a5c9.js",
+    "static/js/2.e7615388.chunk.js",
+    "static/css/main.4e86e26f.chunk.css",
+    "static/js/main.ca56839a.chunk.js"
+  ]
+}
